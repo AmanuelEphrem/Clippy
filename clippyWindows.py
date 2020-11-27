@@ -92,7 +92,7 @@ def release(key):
 #listener thread for keyboard
 listener = Listener(on_press=press, on_release=release)
 listener.start()
-#anticipates KeyboardInterrupt exception being raised
+#anticipates KeyboardInterrupt exception being raised unique to windows OS
 try:
   listener.join()
 except KeyboardInterrupt as e:
