@@ -1,8 +1,9 @@
 # Clippy
 A copy and pasting script done in python 3. 
+## Installation
+`pip install -r requirements.txt`
 ## Getting Started
-1. 'pip install -r requirements.txt'
-2. 'python3 clippyMac.py'
+`python3 clippyMac.py`
 ## Description
 Clippy is a script designed to record and allow access to the last four entries of your clipboard.
 
